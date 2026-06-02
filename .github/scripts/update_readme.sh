@@ -9,8 +9,8 @@ TIMESTAMP=$(date)
 echo -e "\n[GITHUB_USER - $FREQ_RESULT - $TIMESTAMP]" >> README.md
 
 # Configure Git to use GitHub Actions user and email
-git config --global user.name "github-actions"
-git config --global user.email "github-actions@users.noreply.github.com"
+git config --global user.name "github-actions[bot]"
+git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
 # Add README.md to git, commit, and push the changes
 git add README.md
